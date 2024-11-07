@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+}
+
+.relative{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+header{
+    color: rgb(64, 63, 43);
+}
+
+ul,ol{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+header a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding: 35px 15px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+header a:hover{
+    color: rgb(22, 49, 22);
+}
+
+picture{
+    display: block;
+    font-size: 0;
+}
+
+input,textarea{
+    outline: none;
+    width: 100%;
+    resize: none;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+#hero button{
+    border: 1px solid rgb(254, 250, 240);
+    padding: 10px 30px;
+    background-color: rgb(254, 250, 240);
+    color: rgb(103, 100, 100);
+    margin: 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#hero button:hover{
+    border: 1px solid rgb(254, 250, 240);
+    color: rgb(254, 250, 240);
+    background-color: rgb(64, 63, 43);
+    transition: .3s linear;
+}
+.icon{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.hfull{
+    height: 100%;
+}
+.bold{
+    font-weight: bold;
+}
+img {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    padding: 10px 0;
+    padding-bottom: 20px;
+}
+.title3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.small_title{
+    font-size: 40px;
+    font-weight: bold;;
+}
+.desc {
+    font-size: 18px;
+}
+.flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-end{
+    justify-content: end;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: end;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.tac{
+    text-align: center;
+}
+.tar{
+    text-align: right;
+}
+.tal{
+    text-align: left;
+}
+
+.w10{
+    width: 10%;
+}
+.w20{
+    width: 20%;
+}
+.w30{
+    width: 30%;
+}
+.w40{
+    width: 40%;
+}
+.w50{
+    width: 50%;
+}
+.w60{
+    width: 60%;
+}
+.w70{
+    width: 70%;
+}
+.w80{
+    width: 80%;
+}
+.w90{
+    width: 90%;
+}
+.wfull{
+    width: 100%;
+}
+.shipping{
+    background-color: rgb(232, 229, 155);
+    height: 40px;
+}
+.ma{
+    margin:auto;
+}
+.menu{
+    background-color: rgb(254, 250, 240);
+    padding: 0 100px;
+    height: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#hero .title{
+    font-size: 300px;
+    color: rgb(255, 253, 195);
+    padding-bottom: 0;
+}
+#hero .small_title{
+    color: rgb(254, 250, 240);
+}
+#hero{
+    height: 100vh;
+    background-image: url("https://static.wixstatic.com/media/c837a6_938269b105e04d2c8a3462e43263ecf4~mv2.jpg/v1/fill/w_1519,h_764,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_938269b105e04d2c8a3462e43263ecf4~mv2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: brightness(73%);
+}
+#products picture{
+    border-radius: 25px;
+    overflow: hidden;
+    width: 280px;
+    margin-bottom: 10px;
+}
+#products .row{
+    padding:45px 100px;
+}
+#products .col{
+    padding: 0 15px;
+}
+#products .desc{
+    padding-top: 8px;
+}
+#products .small_title{
+    padding-top: 25px;
+}
+#products{
+    background-color: rgb(254, 250, 240);
+    color: rgb(64, 63, 43);
+}
+.relative{
+    position: relative;
+}
+#products .abs{
+    background-color: rgb(64, 63, 43);
+    color: white;
+    border: 1px solid rgb(64, 63, 43);
+    border-radius: 15px;
+    padding: 5px 10px;
+    top: 0;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+#zw .row{
+    padding:45px 100px;
+}
+#zw picture{
+    border-radius: 15px;
+    overflow: hidden;
+    width: 600px;
+    margin-left: 50px;
+}
+#zw {
+    background-color: rgb(196, 193, 151);
+    height: 620px;
+    color: rgb(64, 63, 43)
+}
+#zw button{
+    border: 1px solid rgb(64, 63, 43);
+    background-color: rgb(64, 63, 43);
+    color: rgb(254, 250, 240);
+    margin-left: 0;
+    padding: 10px 25px;
+    margin: 20px 0;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#zw button:hover{
+    border: 1px solid rgb(64, 63, 43);
+    color: rgb(64, 63, 43);
+    background-color: transparent;
+    transition: .3s linear;
+}
+.zw{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    transition: all .3s linear;
+}
+img:hover{
+    transform: scale(1.2)
+}
+#collections{
+    color: rgb(64, 63, 43);
+    background-color: rgb(254, 250, 240);
+}
+#collections .row{
+    padding:45px 100px;
+}
+#collections picture{
+    border-radius: 15px;
+    overflow: hidden;
+    filter: brightness(65%);
+}
+#collections .col{
+    padding: 0 20px;
+}
+#collections .abs{
+    color: rgb(255, 253, 195);
+}
+.first{
+    top: 35%;
+    left: 30%;
+}
+.sec{
+    top:35%;
+    left: 36%;
+}
+.third{
+    top:35%;
+    left:22%;
+}
+#mission{
+    background-color: rgb(221, 221, 204);
+    color: rgb(64, 63, 43);
+}
+.descb{
+    font-size: 22px;
+    padding-bottom: 50px;
+}
+#mission .title{
+    padding-top: 40px;
+}
+svg{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#mission .p{
+    padding: 0 250px;
+}
+.pt{
+    padding-top: 50px;
+}
+#mission button{
+    border: 1px solid rgb(64, 63, 43);
+    background-color: rgb(64, 63, 43);
+    color: rgb(254, 250, 240);
+    margin-left: 0;
+    padding: 10px 25px;
+    margin: 20px 0;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+#mission button:hover{
+    border: 1px solid rgb(64, 63, 43);
+    color: rgb(64, 63, 43);
+    background-color: transparent;
+    transition: .3s linear;
+}
+#sale{
+    background-color: rgb(254, 250, 240);
+}
+#sale .row{
+    height: 100vh;
+    padding:45px 100px;
+}
+#sale .wrapper{
+    background-image: url('https://static.wixstatic.com/media/c837a6_95cb77319d8f4c42bc418d64166a088c~mv2.png/v1/fill/w_1319,h_990,q_75/c837a6_95cb77319d8f4c42bc418d64166a088c~mv2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: brightness(80%);
+}
+#sale .title{
+    font-size: 180px;
+    color: rgb(255, 253, 195);
+}
+#sale .small_title{
+    color: white;
+}
+#sale button{
+    border: 1px solid rgb(254, 250, 240);
+    padding: 10px 35px;
+    background-color: rgb(254, 250, 240);
+    color: rgb(103, 100, 100);
+    margin: 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#sale button:hover{
+    border: 1px solid rgb(254, 250, 240);
+    color: rgb(254, 250, 240);
+    background-color: rgb(64, 63, 43);
+    transition: .3s linear;
+}
+#anim{
+    color: rgb(64, 63, 43);
+    background-color: rgb(232, 229, 155);
+}
+#anim .row:nth-child(1){
+    padding:50px 100px;
+}
+#anim .row:nth-child(2){
+    padding:0px 100px;
+    padding-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.scroll {
+    white-space: nowrap;
+    animation: scroll 15s linear 1s infinite;
+    margin: 0;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#anim picture{
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+    width: 260px;
+}
+@keyframes scroll {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-90%);
+    }
+}
+footer .row{
+    padding: 50px 100px;
+    background-color: rgb(232, 229, 155);
+    border-top: 1px solid rgb(64, 63, 43);
+}
+input{
+    all:unset;
+    border-bottom: 2px solid rgb(64, 63, 43);
+    cursor: auto;
+    padding-top: 20px;
+    width: 300px;
+}
+footer button{
+    border: 1px solid rgb(64, 63, 43);
+    background-color: rgb(64, 63, 43);
+    color: rgb(254, 250, 240);
+    margin-left: 10px;
+    margin-bottom: 60px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+footer button:hover{
+    border: 1px solid rgb(64, 63, 43);
+    color: rgb(64, 63, 43);
+    background-color: transparent;
+    transition: .3s linear;
+}
+.list{
+    padding: 80px 30px;
+    font-size: 20px;
+}
+footer li{
+    padding: 12px;
+    cursor: pointer;
+}
+footer a{
+    color: inherit;
+    padding: 0 15px;
+}

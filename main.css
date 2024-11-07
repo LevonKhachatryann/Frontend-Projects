@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Sora:wght@100..800&display=swap');
+*{
+    font-family: "Sora", sans-serif;
+}
+.row{
+    padding: 20px 110px;
+}
+.h5{
+    font-size: 20px;
+}
+.h2{
+    font-size: 32px;
+}
+.bold{
+    font-weight: 700;
+}
+.semibold{
+    font-weight: 600;
+}
+.mobile{
+    display: none;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.regular{
+    font-weight: 400;
+}
+.extrabold{
+    font-weight: 800;
+}
+.p2{
+    font-size: 16px;
+    line-height: 24px;
+}
+.display{
+    font-size: 48px;
+}
+.h4{
+    font-size: 24px;
+}
+.outlined{
+    color: #fff;
+    text-shadow:
+        -2px -2px 0 #000,  
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+}
+.grey{
+    color: #71717A;
+}
+#hero{
+    min-height: 630px;
+}
+.static img{
+    width: 20px;
+    height: 20px;
+}
+#hero .buts{
+    border: 1.7px solid black;
+    border-radius: 4px;
+    background-color: white;
+    padding: 16px;
+    margin-top: 70px;
+    margin-right: 24px;
+}
+#hero .buts:hover{
+    filter: invert(100%);
+}
+#hero .about{
+    padding-top: 32px;
+}
+/*.girl1{
+    width: 600px;
+    height: 600px;
+}*/
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section{
+    padding: 50px 20px;
+}
+.static{
+    position: static;
+}
+.skill img{
+    width: 56px;
+    height: 56px;
+}
+.skill{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+    padding: 37px 0;
+}
+.skill:hover{
+    filter: invert(100%);
+}
+.w20{
+    padding: 0 35px;
+}
+.name{
+    padding-top: 32px;
+}
+.skt{
+    padding-top: 40px;
+}
+.skb{
+    padding-bottom: 40px;
+}
+.bgblack{
+    background-color: black;
+    color: white;
+}
+.lgrey{
+    color: #D4D4D8;
+}
+.linehight{
+    line-height: 32px;
+}
+.iconexp{
+    width: 32px;
+    height: 32px;
+    margin-right: 30px;
+}
+.pt28{
+    padding-top: 28px;
+}
+.wrapper1,.wrapper2,.wrapper3{
+    border: 1px solid #71717A;
+    border-radius: 7px;
+    padding: 30px 24px;
+    margin: 0 24px;
+}
+.wrapper2{
+    background-color: #27272A;
+    border: 1px solid #27272A;
+}
+.wrapper1{
+    margin-top: 40px;
+}
+.wrapper3{
+    margin-bottom: 40px;
+}
+/*.girl2{
+    width: 520px;
+    height: 600px;
+}*/
+#about p{
+    padding: 10px 0; 
+}
+.m{
+    margin: 0 auto;
+}
+#about .display{
+    padding-bottom: 40px;
+}
+.p20{
+    padding: 20px 0;
+}
+#projects .icon{
+    margin: 20px 0;
+}
+.p{
+    padding-bottom: 40px;
+}
+.dgrey{
+    color: #404040;
+}
+.person{
+    width: 96px;
+    height: 96px;
+    margin-bottom: 20px;
+}
+.line{
+    border-top: 2px solid black;
+}
+.border{
+    border: 1px solid inherit;
+    border-radius: 10px;
+    box-shadow: 4px 10px 12px 4px #18274B14;
+}
+.sidepad{
+    padding: 0 15px;
+}
+#testimonial .sidepad .wrapper:hover{
+    .dgrey{
+        color: white;
+    }
+    .line{
+        border-top: 2px solid white;
+    }
+    .grey{
+        color: white;
+    }
+    background-color: black;
+    color: white;
+}
+.pad>div{
+    padding: 12px 0;
+}
+.pad{
+    padding: 40px 60px;
+}
+.m12{
+    margin-top: 12px;
+}
+.pt{
+    padding-top: 30px;
+}
+#testimonial .display{
+    padding-bottom: 25px;
+}
+input{
+    border: 1.6px solid black;
+    border-radius: 4px;
+    padding-left: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin: 10px 0;
+}
+textarea{
+    border: 1.6px solid black;
+    border-radius: 4px;
+    padding-left: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin: 10px 0;
+    min-height: 140px;
+}
+footer .buts{
+    width: 56px;
+    height: 56px;
+    margin-right: 24px;
+}
+.w80>div{
+    padding: 15px 0;
+}
+footer .h3{
+    font-size: 28px;
+    padding-top: 40px;
+}
+footer button{
+    border: 1px solid black;
+    padding: 13px 20px;
+    background-color: black;
+    color:white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 32px;
+}
+#contact{
+    padding: 70px 0;
+}
+#contact .buts{
+    border: 1.7px solid black;
+    border-radius: 4px;
+    background-color: white;
+    padding: 16px;
+    margin-right: 24px;
+}
+#contact .buts:hover{
+    filter: invert(100%);
+}
+#contact .nmr{
+    margin-right: 0;
+}
+footer button:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    transition: .3s linear;
+}
+#end{
+    padding: 0;
+}
+#end .row{
+    padding: 25px 100px;
+}
+#end a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 16px;
+    justify-content: space-between;
+}
+#end img{
+    filter: invert(100%);
+}
+.w100mobile{
+    white-space: nowrap;
+}
+
+
+
+

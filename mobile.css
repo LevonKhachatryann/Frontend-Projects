@@ -1,0 +1,190 @@
+@media all and (max-width: 1024px) {
+    .desktop{
+        display: none;
+    }
+    .menu{
+        /* display: none; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        height: 90vh;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: all .7s linear;
+    }
+    .menu a{
+        padding: 17px 10px;
+    }
+    .btn{
+        margin-top: 17px;
+    }
+    .menu ul{
+        flex-direction: column;
+
+    }
+    .mobile{
+        display: block;
+    }
+    .menu-closed{
+        display: none;
+    }
+    header{
+        margin: 0;
+        width: 100%;
+        top: 0;
+        padding: 15px 10px;
+    }
+    .menu .menu-header{
+        display: flex;
+        padding: 25px 0;
+    }
+    .menu-closed,.menu-opened{
+        position: relative;
+        z-index: 7;
+    }
+    .open-menu:hover .menu{
+        transform: translateY(0);
+        opacity: 1;
+        z-index: 7777;
+    }
+    .open-menu:hover .menu-closed{
+        display: block;
+    }
+    .open-menu:hover .menu-open{
+        display: none;
+    }
+    *{
+        flex-wrap: wrap;
+    }
+    main .col, #contact .col{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .title {
+        text-align: center;
+        font-size: 42px;
+    }
+    .small_title{
+        text-align: center;
+        font-size: 25px;
+    }
+    main .row,footer .row{
+        padding: 10px 0;
+    }
+    .wrapper{
+        padding: 13px 10px;
+    }
+    .logoo{
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .desktop{
+        display: none;
+    }
+    .ordermobile{
+        order: -1;
+    }
+    .display{
+        font-size: 28px;
+    }
+    #hero .buts{
+        margin-top: 35px;
+    }
+    #hero .buts img{
+        width: 20px;
+        height: 16.25px;
+    }
+    section{
+        padding: 10px 16px;
+    }
+    footer .h3{
+        font-size: 20px;
+    }
+    .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    #skills .mobile50{
+        width: 50%;
+    }
+    #skills .row{
+        padding: 0;
+    }
+    .wrapper1,.wrapper2,.wrapper3{
+        margin: 0;
+    }
+    #experience .flex{
+        display: flex;
+    }
+    .h4{
+        font-size: 20px;
+    }
+    .ordermobile1{
+        order: -2;
+    }
+    #projects .w50{
+        width: 100%;
+    }
+    #projects .icon{
+        margin-bottom: 0px;
+        margin-top: 14px;
+    }
+    .p20{
+        padding: 14px 0;
+    }
+    .ml{
+        margin-left: 20px;
+    }
+    .pr{
+        padding-right: 30px;
+    }
+    .end{
+        padding-top: 28px;
+    }
+    footer .wrapper{
+        width: 100%;
+        padding: 10px 16px;
+    }
+    .w100mobile{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .m20mobile{
+        margin-top: 24px;
+    }
+    .h6{
+        font-size: 12px;
+    }
+    .wfullmobile{
+        width: 100%;
+    }
+    .flexstart{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #end .row{
+        padding: 10px 0;
+    }
+    #contact .buts{
+        margin-top: 20px;
+    }
+    .skill{
+        margin: 0 10px;
+    }
+    button{
+        margin-right: 0;
+    }
+    #end a{
+        padding-left: 0;
+    }
+    header .row{
+        padding: 0;
+    }
+}

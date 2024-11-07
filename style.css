@@ -1,0 +1,467 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+
+.mainOptions{
+    width: 100%;
+    height: 10000px;
+    background-color: red
+
+}
+
+.firstOption{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    background-image: url('pexels-photo-1072179.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid;
+
+
+}
+
+.wearOldmoney{
+    width: 200px;
+    height: 40px;
+    color: rgb(245, 245, 220);
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 660px;
+    padding-top: 10px;
+    font-size: large;
+    float: left;
+    position: sticky;
+}
+
+.languages{
+    width: 80px;
+    height: 30px;
+    margin-left: 350px;
+    margin-top: 35px;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(245, 245, 220);
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+
+.languages:hover{
+    background-color: rgba(192, 192, 192, 0.427);
+}
+
+.icon1{
+    width: 40px;
+    height: 30px;
+    color: rgb(245, 245, 220);
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-top: 35px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+
+    
+
+}
+
+.icon1:hover{
+    background-color: rgba(192, 192, 192, 0.427);
+}
+
+.icon2{
+    width: 40px;
+    height: 30px;
+    color: rgb(245, 245, 220);
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-top: 35px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+
+    
+
+}
+
+.icon2:hover{
+    background-color: rgba(192, 192, 192, 0.427);
+}
+
+.icon3{
+    width: 40px;
+    height: 30px;
+    color: rgb(245, 245, 220);
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-top: 35px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.icon3:hover{
+    background-color: rgba(192, 192, 192, 0.427);
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+
+}
+
+.suggestions{
+    width: 185px;
+    height: 40px;
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 60px;
+    cursor: pointer;
+    color: rgb(245, 245, 220);
+    padding-top: 13px;
+}
+
+.suggestions:hover{
+    background-color: rgb(245, 245, 220);
+    color: black;
+}
+
+
+.qouteBlock{
+    width: 100%;
+    height: 200px;
+}
+
+.qoute{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    padding-top: 50px;
+    color: rgb(245, 245, 220);
+    font-weight: bolder;
+}
+
+.adv{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322); /* Adjust thickness and color as needed */
+    padding-bottom: 10px; /* Optional: to add some space before the line */
+    background-color: white;
+    
+}
+
+.dressLike{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+
+}
+
+.sales{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+
+}
+
+.summer2024{
+    width: 100%;
+    height: 1150px;
+    background-color: white;
+}
+
+.title{
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.show{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 37px;
+    cursor: pointer;
+}
+
+.show:hover{
+    background-color: rgba(192, 192, 192, 0.427);
+}
+
+.clothes{
+    width: 300px;
+    height: 300px;
+}
+
+.price{
+    width: 100%;
+    height: 100px;
+}
+
+.name{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.dollar{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+
+.place{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322); /* Adjust thickness and color as needed */
+    padding-bottom: 10px; /* Optional: to add some space before the line */
+    background-color: white;
+}
+.discover{
+    width: 450px;
+    height: 50px;
+    background-color: black;
+    color: rgb(245, 245, 220);
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.discover:hover{
+    background-color: rgb(245, 245, 220);
+    color: black;
+    border: 1.5px solid;
+}
+
+.mainAbout{
+    width: 100%;
+    height: 850px;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322); /* Adjust thickness and color as needed */
+    padding-bottom: 10px; /* Optional: to add some space before the line */
+}
+
+.photos{
+    width: 60%;
+    height: 1000px;
+    float: left;
+}
+
+.text{
+    width: 40%;
+    height: 1000px;
+    float: right;
+}
+
+.firstPhoto{
+    width: 300px;
+    height: 380px;
+    background-image: url('poqr2024-08-13\ 175252.png');
+    margin-left: 420px;
+    margin-top: 240px;
+    float: left;
+}
+
+.secondPhoto{
+    width: 400px;
+    height: 550px;
+    background-image: url('mec_lauren-man-old-money-winter-1980s_480x480.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 100px;
+    margin-top: 160px;
+}
+
+.aboutTitle{
+    width: 350px;
+    height: 100px;
+    margin-top: 250px;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.aboutText{
+    width: 450px;
+    height: 160px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.aboutText2{
+    width: 450px;
+    height: 160px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.shirts{
+    width: 100%;
+    height: 650px;
+    background-color: white;
+}
+
+.photo{
+    width: 100%;
+    height: 400px;
+    background-image: url('feat-old-money-aesthetic.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.photoText{
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.suggestionMain{
+    width: 100%;
+    height: 1050px;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322); /* Adjust thickness and color as needed */
+    padding-bottom: 10px; /* Optional: to add some space before the line */
+}
+
+.nothing{
+    width: 300px;
+    height: 10px;
+    margin: auto;
+}
+
+.johnleo{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: 70px;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: 40;
+}
+
+.shop{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.pictures{
+    width: 100%;
+    height: 900px;
+
+}
+
+.right{
+    width: 57%;
+    height: 900px;
+    float: left;
+}
+
+.left{
+    width: 43%;
+    height: 900px;
+    float: right;
+}
+
+.standing{
+    width: 450px;
+    height: 700px;
+    margin-left: 300px;
+    margin-top: 70px;
+    background-image: url('real_image-5_22ea71a9-5b0c-4f8a-9249-4b93d2933b1e.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+
+.forleft{
+    width: 300px;
+    height: 500px;
+    margin-top: 170px;
+}
+
+.small{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    background-image: url('nice_smallBenimino_-_old_money_-_casual_-_blank-1208965.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.small:hover{
+    opacity: 0.7;
+}
+
+.nameProd{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 30;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.nameProd:hover{
+    opacity: 0.7;
+}
+
+.priceProd{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+.viewProd{
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    background-color: black;
+    color: rgb(245, 245, 220);
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.viewProd:hover{
+    background-color: rgb(245, 245, 220);
+    color: black;
+    border: 1.5px solid;
+}
